@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="360dp"
+        android:layout_height="115dp"
+        android:text="countup"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="160dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="360dp"
+        android:layout_height="99dp"
+        android:text="countdown"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="294dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sigit"
+        android:layout_width="361dp"
+        android:layout_height="124dp"
+        android:text="hai sigit"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="328dp"
+        android:layout_height="377dp"
+        android:background="#03A9F4"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="250sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="385dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
